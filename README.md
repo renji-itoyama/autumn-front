@@ -11,6 +11,9 @@
 - 上記に加え、少し作業は多いですが[こちら](https://qiita.com/newt0/items/80164665e7e83ec7a669)もおすすめです。<br>
   ❗️ **「開発環境構築」** のエリアはやらない方が賢明です。
   
+<br>
+<br>
+
 ## ＜仮想環境の構築手順＞
 
 ### ① Anacondaのインストール
@@ -28,8 +31,8 @@
 ---
 
 #### 〜Anacondaに関する予備知識〜
-仮想環境に入れると、ターミナルの表記が
-`UserNamenoMacBook-Pro: UserName$`から<br>
+
+仮想環境に入ると、ターミナルの表記が`UserNamenoMacBook-Pro: UserName$`から<br>
 `(autumn-front)UserNamenoMacBook-Pro: UserName$`と表記が変わります。<br>
 この状態になっていればAnaconda（仮想環境）に入れている証拠です。<br>
 <br>
@@ -38,16 +41,20 @@
 `UserNamenoMacBook-Pro: UserName$`となって仮想環境から抜けることができます。
 <br>
 その他condaコマンドで困った場合は、[こちらの記事](https://qiita.com/yakisobamilk/items/867dce8e53824146ce05)を参考にしてみて下さい。
+
 ---
 
 ### ④仮想環境にNode.jsのインストールをする
 `$ conda install -c conda-forge nodejs`
+
+<br>
 <br>
 
 ## ＜カリキュラムの導入＞
-※仮想環境には入った状態で実行してください。
+※仮想環境に入ったままの状態で実行してください。
 
 ### ⑤作業フォルダの作成 & 移動
+※別にいらないと思った方はスキップして⑥に進んでいただいて構いません。
 `mkdir autumn-lesson && cd autumn-lesson`
 
 ### ⑥カリキュラムの取得
@@ -58,5 +65,5 @@
 ## 完了！
 導入は完了したので、ここから先はVSCodeなどのIDEを起動して作業してください。
 - VSCodeのインストールは[こちら](https://code.visualstudio.com/)<br>
-- エンジニア向けのおすすめプラグインは[こちら](https://qiita.com/ucan-lab/items/e85931bf8276da43cc97)を参考にしてください。
+- VSCodeのエンジニア向けのおすすめプラグインは[こちら](https://qiita.com/ucan-lab/items/e85931bf8276da43cc97)を参考にしてください。
 - Node.js向けの便利なプラグインは[こちら](https://crieit.net/posts/VSCode-Web)を参考にしてください。
