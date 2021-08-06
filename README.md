@@ -67,3 +67,44 @@
 - VSCodeのインストールは[こちら](https://code.visualstudio.com/)<br>
 - VSCodeのエンジニア向けのおすすめプラグインは[こちら](https://qiita.com/ucan-lab/items/e85931bf8276da43cc97)を参考にしてください。
 - Node.js向けの便利なプラグインは[こちら](https://crieit.net/posts/VSCode-Web)を参考にしてください。
+
+<br>
+<br>
+
+### ＜中級課題の環境構築＞
+中級課題の環境構築で使うと思うので、手順だけこちらにも掲載しておきます。<br>
+必要な段階でやって下さい。本体カリキュラムは[こちら](https://mm0311.backlog.jp/wiki/AUTUMN_EDUCATION/%E3%82%AB%E3%83%AA%E3%82%AD%E3%83%A5%E3%83%A9%E3%83%A0%EF%BC%88%E4%B8%AD%E7%B4%9A%EF%BC%89%2F%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89%2F00_%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89)
+<br>
+#### 00_環境構築
+こちらはNode.jsを入れるだけで、上記の環境構築の段階でできているので特に作業はありません。
+動作確認として、仮想環境にある状態で`$ node -v` と打ってバージョンが表記されれば問題ありません。
+
+#### 01_webpack
+
+###### 作業フォルダまで移動
+`$ cd work/01-webpack`
+
+###### 初期化・package.jsonの生成
+`$ npm init -y`
+
+###### webpackのインストール
+`npm install webpack webpack-cli --save-dev`
+
+#### 02_ejs
+###### フォルダの移動
+`$ cd .. && cd 02_ejs`
+###### npm install & 実行
+`$ npm install`
+`$ npm run start`
+
+###### 次に行くために一旦サーバー停止
+サーバーを停止するためには **control + c** で止まります。
+
+動作確認  [localhost:9000](http://localhost:9000)
+
+#### 03_sass
+###### フォルダの移動
+`$ cd .. && cd 03_sass`
+###### npm install & 実行
+`$ npm install`
+`$ npm run start`
