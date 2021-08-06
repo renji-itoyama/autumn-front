@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+/* clearfix用 */
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+.top {
+  position: relative;
+  height: 100px;
+  background-color: #142f40;
+}
+.bottom {
+  height: 100px;
+  background-color: #d98d30;
+}
+.top_inner {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
+.top_box {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  float: left;
+  background-color: #a9004b;
+}
+.top_box:first-child {
+  margin-left: 0;
+}
+.midLeft {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+.midRight {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: #8c2727;
+  float: left;
+}
+.midRight_inner {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.midRight_box {
+  width: 140px;
+  height: 40px;
+  margin-top: 10px;
+  border: 5px solid #fff;
+  background-color: #ff863f;
+}
+.midRight_box:first-child {
+  margin-top: 0;
+}
