@@ -6,7 +6,7 @@
   Homebrewは、言語やフレームワーク、パッケージなど色々インストールする際に自分のPCを汚さないためのものです。
 - dockerのインストール<br>
   もちろん[公式サイト](https://docs.docker.com/)からダウンロードも可能ですが、せっかくbrewを入れたのでbrewを使ってインストールしましょう。<br>
-  `brew install --cask docker`
+  `$ brew install --cask docker`
   
 - 上記に加え、少し作業は多いですが[こちら](https://qiita.com/newt0/items/80164665e7e83ec7a669)もおすすめです。<br>
   ❗️ **「開発環境構築」** のエリアはやらない方が賢明です。
