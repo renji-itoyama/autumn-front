@@ -1,22 +1,24 @@
 # autumn-front 
 
-### ＜仮想環境の構築手順＞
+### ＜大前提として、エンジニアたる者としてインストールしておきたいもの＞
+- brew
+## ＜仮想環境の構築手順＞
 
-#### ① Anacondaのインストール
+### ① Anacondaのインストール
 [こちらのリンク](https://www.anaconda.com/products/individual#Downloads)から、OSに合うものをインストールしてください。
 
 **ここから先は、「ターミナル（MAC）」または「コマンドプロンプト（Windows）」を起動して行ってください❗️**
 
-#### ②condaコマンドを使って仮想環境の構築
+### ②condaコマンドを使って仮想環境の構築
 ターミナルで以下のコマンドを実行してください。<br>
 `$ conda create -n autumn-front`
 
-#### ③仮想環境に入る
+### ③仮想環境に入る
 `$ conda activate autumn-front`
 
 ---
 
-##### 〜Anacondaに関する予備知識〜
+#### 〜Anacondaに関する予備知識〜
 仮想環境に入れると、ターミナルの表記が
 `UserNamenoMacBook-Pro: UserName$`から<br>
 `(autumn-front)UserNamenoMacBook-Pro: UserName$`と表記が変わります。<br>
@@ -28,17 +30,17 @@
 
 ---
 
-#### ④仮想環境にNode.jsのインストールをする
+### ④仮想環境にNode.jsのインストールをする
 `$ conda install -c conda-forge nodejs`
 <br>
 
-### ＜カリキュラムの導入＞
+## ＜カリキュラムの導入＞
 ※仮想環境には入った状態で実行してください。
 
-#### ⑤作業フォルダの作成 & 移動
+### ⑤作業フォルダの作成 & 移動
 `mkdir autumn-lesson && cd autumn-lesson`
 
-#### ⑥カリキュラムの取得
+### ⑥カリキュラムの取得
 `git clone ~~~~~~ `
 
 <br>
