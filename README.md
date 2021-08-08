@@ -54,11 +54,11 @@
 ※仮想環境に入ったままの状態で実行してください。
 
 ### ⑤作業フォルダの作成 & 移動
-※別にいらないと思った方はスキップして⑥に進んでいただいて構いません。
-`mkdir autumn-lesson && cd autumn-lesson`
+※別にいらないと思った方はスキップして⑥に進んでいただいて構いません。<br>
+`$ mkdir autumn-lesson && cd autumn-lesson`
 
 ### ⑥カリキュラムの取得
-`git clone https://github.com/Kurogoma939/autumn-front.git`
+`$ git clone https://github.com/Kurogoma939/autumn-front.git`
 
 <br>
 
